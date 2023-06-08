@@ -1,0 +1,65 @@
+form {
+  width: 550px;
+  height: auto;
+  min-height: 500px;
+  padding: 30px 20px;
+  background-color: #dde3f0;
+  border-radius: 8px;
+}
+form .form-wrapper {
+  margin-top: 30px;
+}
+form .form-wrapper .form-control {
+  margin-top: 20px;
+}
+form .form-wrapper .form-control .error-text {
+  color: #c45b5b;
+}
+form .form-wrapper .form-control label {
+  color: #4e4c4c;
+  font-weight: 800;
+  font-size: 17px;
+  margin-left: 5px;
+}
+form .form-wrapper .form-control .input-field {
+  position: relative;
+}
+form .form-wrapper .form-control .input-field input {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #e9f0ff;
+  border: 3px solid transparent;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #4e4c4c;
+  padding-inline: 10px;
+  transition: all 0.3s ease;
+}
+form .form-wrapper .form-control .input-field input:focus {
+  border: 3px solid #5c82cb;
+}
+form .form-wrapper .form-control .input-field input.error-input {
+  border: 3px solid #d03d3d;
+}
+form .form-wrapper .form-control .input-field input[type=number]::-webkit-inner-spin-button,
+form .form-wrapper .form-control .input-field input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+form .form-wrapper .form-control button {
+  width: 100%;
+  background-color: #5c82cb;
+  font-weight: 900;
+  text-transform: capitalize;
+  cursor: pointer;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #e9f0ff;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=SignUp.css.map */
