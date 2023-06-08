@@ -1,7 +1,6 @@
 import {useFormik} from "formik";
 import "./SignUp.scss";
 import {SignUpSchema} from "../../schemas/SignUpSchema.js";
-
 export default function SignUp() {
     const onSubmit = async (values,actions) => {
         await new Promise((resolve) => setTimeout(resolve,1000));
@@ -26,7 +25,7 @@ export default function SignUp() {
         },
         validationSchema: SignUpSchema,
         onSubmit
-    })
+    });
     return (
         <>
             <form
